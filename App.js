@@ -29,7 +29,7 @@ export default function App() {
 
         <TouchableOpacity>
           <View style={{ marginRight: 10 }}>
-            <Image source={Images.chat} style={{ width: 40, height: 40, tintColor: "#C5C5C5", alignSelf: 'flex-start' }}/>
+            <Image source={Images.chat} style={{ width: 40, height: 40, tintColor: "#C5C5C5", alignSelf: 'flex-start' }} />
           </View>
         </TouchableOpacity>
       </View>
@@ -46,21 +46,35 @@ export default function App() {
 
       <View style={styles.iconsBottom}>
 
-        <View style={styles.smaller}>
-          <Image source={Images.rewind} style={{ width: 21.95, height: 25.6 }} />
-        </View>
-        <View style={styles.bigger}>
-          <Image source={Images.nope} style={{ width: 30, height: 30 }} />
-        </View>
-        <View style={styles.smaller}>
-          <Image source={Images.boost} style={{ width: 13.9636, height: 25.6 }} />
-        </View>
-        <View style={styles.bigger}>
-          <Image source={Images.like} style={{ width: 30, height: 25 }} />
-        </View>
-        <View style={styles.smaller}>
-          <Image source={Images.superLike} style={{ width: 25, height: 23.8 }} />
-        </View>
+        <TouchableOpacity>
+          <View style={styles.smaller}>
+            <Image source={Images.rewind} style={{ width: 21.95, height: 25.6 }} />
+          </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <View style={styles.bigger}>
+            <Image source={Images.nope} style={{ width: 30, height: 30 }} />
+          </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <View style={styles.smaller}>
+            <Image source={Images.boost} style={{ width: 13.9636, height: 25.6 }} />
+          </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <View style={styles.bigger}>
+            <Image source={Images.like} style={{ width: 30, height: 25 }} />
+          </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <View style={styles.smaller}>
+            <Image source={Images.superLike} style={{ width: 25, height: 23.8 }} />
+          </View>
+        </TouchableOpacity>
 
 
       </View>
